@@ -6,8 +6,8 @@ import os
 
 today =(dt.datetime.now().month, dt.datetime.now().day)
 
-my_email =os.environ["MY_EMAIL"]
-my_password = ["MY_PASSWORD"]
+my_email = os.environ["MY_EMAIL"]
+my_password = os.environ["MY_PASSWORD"]
 
 
 data=pandas.read_csv("birthdays.csv")
